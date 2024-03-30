@@ -18,7 +18,7 @@ public class SharedDriver {
         IE
     }
 
-    protected static WebDriver getWebDriver(Browser browser){
+    public static WebDriver getWebDriver(Browser browser){
 
         switch (browser) {
             case CHROME:
